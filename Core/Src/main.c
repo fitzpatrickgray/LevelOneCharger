@@ -163,19 +163,19 @@ static void GPIO_Init(void)
 	/*			           ___
 	 *			    PA9	  |___|   VIN
 	 * 			    PA10     	  GND
-	 * 			    NRST		 NRST
-	 * 			    GND			  +5V
-	 * 			    PA12		  PA2 --- USART1_TX
-	 * 			    PB0			  PA7 --- USART1_DE
-	 * 			    PB7			  PA6
+	 * 			    NRST          NRST
+	 * 			    GND	          +5V
+	 * 			    PA12          PA2 --- USART1_TX
+	 * 			    PB0	          PA7 --- USART1_DE
+	 * 			    PB7		  PA6
 	 * 			    PB6           PA5
-	 * ADC_IN9 ---- PB1    ___    PA4
+	 *             ADC_IN9 ---- PB1    ___    PA4
 	 * 			    PF0	  |   |   PA3
 	 * 			    PF1	  |___|   PA1
 	 * 			    PA8	     	  PA0 --- GPIO_Test
-	 * 			    PA11	  	 AREF
-	 * 			    PB5			  +3V
-	 * TIM3_CH1 --- PB4			  PB3
+	 * 			    PA11	  AREF
+	 * 			    PB5	          +3V
+	 *             TIM3_CH1 --- PB4	          PB3
 	 */
 
 	// Unlock GPIO
